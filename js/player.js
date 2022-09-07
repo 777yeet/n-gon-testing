@@ -4202,8 +4202,8 @@ const m = {
 
 function setcustombody() {
         let grd = ctx.createLinearGradient(-30, 0, 30, 0);
-        grd.addColorStop(0,  'hsl(266, 75%, 55%)');
-        grd.addColorStop(1, 'hsl(340, 47%, 77%)');
+        grd.addColorStop(0,  'hsl(173, 57%, 73%)');
+        grd.addColorStop(1, 'hsl(166, 100%, 93%)');
         m.bodyGradient = grd;
-        m.fillColor = 'hsl(266, 75%, 55%)';
+        m.fillColor = 'ffa69e';
 };
