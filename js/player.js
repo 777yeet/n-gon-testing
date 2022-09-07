@@ -865,7 +865,8 @@ const m = {
         ctx.fillStyle = m.bodyGradient
         ctx.fill();
         ctx.arc(15, 0, 4, 0, 2 * Math.PI);
-        ctx.strokeStyle = "#333";
+        // ctx.strokeStyle = "#333";
+        ctx.strokeStyle = "#fff";
         ctx.lineWidth = 2;
         ctx.stroke();
         //draw eye
@@ -894,7 +895,8 @@ const m = {
         ctx.fillStyle = m.bodyGradient
         ctx.fill();
         ctx.arc(15, 0, 4, 0, 2 * Math.PI);
-        ctx.strokeStyle = "#333";
+        // ctx.strokeStyle = "#333";
+        ctx.strokeStyle = "#fff";
         ctx.lineWidth = 2;
         ctx.stroke();
         ctx.restore();
