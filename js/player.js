@@ -797,7 +797,7 @@ const m = {
         ctx.lineTo(m.knee.x, m.knee.y);
         ctx.lineTo(m.foot.x, m.foot.y);
         // ctx.strokeStyle = stroke;
-        ctx.strokeStyle = 'blue';
+        ctx.strokeStyle = '#ffa69e';
         ctx.lineWidth = 7;
         ctx.stroke();
 
@@ -4205,5 +4205,5 @@ function setcustombody() {
         grd.addColorStop(0,  'hsl(173, 57%, 73%)');
         grd.addColorStop(1, 'hsl(166, 100%, 93%)');
         m.bodyGradient = grd;
-        m.fillColor = 'ffa69e';
+        m.fillColor = 'hsl(166, 100%, 93%)';
 };
