@@ -1113,7 +1113,8 @@ const m = {
             const len = target.vertices.length - 1;
             ctx.fillStyle = "rgba(110,170,200," + (0.2 + 0.4 * Math.random()) + ")";
             ctx.lineWidth = 1;
-            ctx.strokeStyle = "#000";
+            // ctx.strokeStyle = "#000";
+            ctx.strokeStyle = "#fff";
             ctx.beginPath();
             ctx.moveTo(
                 m.pos.x + eye * Math.cos(m.angle),
