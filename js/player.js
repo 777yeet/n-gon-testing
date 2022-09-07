@@ -478,7 +478,7 @@ const m = {
         if (m.health < 1) {
             ctx.fillStyle = "rgba(100, 100, 100, 0.5)";
             ctx.fillRect(m.pos.x - m.radius, m.pos.y - 50, 60, 10);
-            ctx.fillStyle = "#f00";
+            ctx.fillStyle = "#c3f";
             ctx.fillRect(
                 m.pos.x - m.radius,
                 m.pos.y - 50,
