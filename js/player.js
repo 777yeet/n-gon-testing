@@ -63,6 +63,13 @@ const m = {
         grd.addColorStop(1, m.fillColor);
         m.bodyGradient = grd
     },
+    setcustombody() {
+        let grd = ctx.createLinearGradient(-30, 0, 30, 0);
+        grd.addColorStop(0,  'hsl(266, 75%, 55%)');
+        grd.addColorStop(1, 'hsl(340, 47%, 77%)');
+        m.bodyGradient = grd
+        m.fillColor = 'hsl(266, 75%, 55%)';
+    },
     setFillColorsAlpha(alpha = 0.5) {
         m.fillColor = `hsla(${m.color.hue},${m.color.sat}%,${m.color.light}%,${alpha})`
         m.fillColorDark = `hsla(${m.color.hue},${m.color.sat}%,${m.color.light - 25}%,${alpha})`
