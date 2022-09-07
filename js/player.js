@@ -796,7 +796,8 @@ const m = {
         ctx.moveTo(m.hip.x, m.hip.y);
         ctx.lineTo(m.knee.x, m.knee.y);
         ctx.lineTo(m.foot.x, m.foot.y);
-        ctx.strokeStyle = stroke;
+        // ctx.strokeStyle = stroke;
+        ctx.strokeStyle = 'blue';
         ctx.lineWidth = 7;
         ctx.stroke();
 
