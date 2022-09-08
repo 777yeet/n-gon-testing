@@ -892,9 +892,12 @@ const m = {
         m.drawLeg("#4a4a4a");
         m.calcLeg(0, 0);
         m.drawLeg("#333");
+        
         ctx.rotate(m.angle);
         ctx.beginPath();
-        // ctx.arc(0, 0, 30, 0, 2 * Math.PI);
+        ctx.lineWidth = 0;
+        // ddraws around body
+        ctx.arc(0, 0, 30, 0, 2 * Math.PI);
         ctx.fillStyle = m.bodyGradient
         ctx.fill();
         // apparently this draws the eye
