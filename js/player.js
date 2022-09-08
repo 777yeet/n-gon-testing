@@ -898,6 +898,7 @@ const m = {
         ctx.lineWidth = 0;
         
         ctx.strokeStyle = '#000000';
+        ctx.globalAlpha = 0.0;
         
         // ddraws around body
         ctx.arc(0, 0, 30, 0, 2 * Math.PI);
