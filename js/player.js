@@ -897,7 +897,7 @@ const m = {
         ctx.arc(0, 0, 30, 0, 2 * Math.PI);
         ctx.fillStyle = m.bodyGradient
         ctx.fill();
-        ctx.arc(15, 0, 4, 0, 2 * Math.PI);
+        // ctx.arc(15, 0, 4, 0, 2 * Math.PI);
         // ctx.strokeStyle = "#333";
         ctx.strokeStyle = "#93e1d8";
         ctx.lineWidth = 2;
