@@ -903,8 +903,9 @@ const m = {
         ctx.strokeStyle = "#93e1d8";
         ctx.lineWidth = 2;
         ctx.stroke();
-        ctx.restore();
         */
+        ctx.restore();
+        
         m.yOff = m.yOff * 0.85 + m.yOffGoal * 0.15; //smoothly move leg height towards height goal
         powerUps.boost.draw()
     },
