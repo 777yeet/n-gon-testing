@@ -896,6 +896,9 @@ const m = {
         ctx.rotate(m.angle);
         ctx.beginPath();
         ctx.lineWidth = 0;
+        
+        ctx.strokeStyle = '#000000';
+        
         // ddraws around body
         ctx.arc(0, 0, 30, 0, 2 * Math.PI);
         ctx.fillStyle = m.bodyGradient
