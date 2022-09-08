@@ -902,6 +902,9 @@ const m = {
         
         // ddraws around body
         ctx.arc(0, 0, 30, 0, 2 * Math.PI);
+        
+        ctx.globalAlpha = 1.0;
+        
         ctx.fillStyle = m.bodyGradient
         ctx.fill();
         // apparently this draws the eye
